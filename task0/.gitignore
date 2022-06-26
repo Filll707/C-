@@ -1,0 +1,133 @@
+## Игнорировать временные файлы Visual Studio, результаты сборки и
+## файлы, созданные популярными дополнениями Visual Studio.
+
+# Пользовательские файлы
+*.suo
+*.user
+*.sln.docstates
+
+# Результаты сборки
+
+[Dd]ebug/
+[Rr]elease/
+x64/
+[Bb]в/
+[Oo]bj/
+
+# Результаты теста MSTest
+[Tt]есть[Rr]результат */
+[Bb]uild[Ll]og.*
+
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.строит
+*.pidb
+*.log
+*.svclog
+*.scc
+
+# Файлы кэша Visual C++
+ipch/
+*.точки доступа
+*.ncb
+*.opensdf
+*.sdf
+*.кэш-файл
+
+# Профилировщик Visual Studio
+*.psess
+*.vsp
+*.vspx
+
+# Guidance Automation Toolkit
+*.gpState
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Click-Once directory
+publish/
+
+# Publish Web Output
+*.Publish.xml
+*.pubxml
+*.azurePubxml
+
+# NuGet Packages Directory
+## TODO: If you have NuGet Package Restore enabled, uncomment the next line
+packages/
+## TODO: If the tool you use requires repositories.config, also uncomment the next line
+!packages/repositories.config
+
+# Windows Azure Build Output
+csx/
+*.build.csdef
+
+# Windows Store app package directory
+AppPackages/
+
+# Others
+sql/
+*.Cache
+ClientBin/
+[Ss]tyle[Cc]op.*
+![Ss]tyle[Cc]op.targets
+~$*
+*~
+*.dbmdl
+*.[Pp]ublish.xml
+
+*.publishsettings
+
+# Проекты RIA/Silverlight
+Сгенерированный код/
+
+# Резервное копирование и создание отчетов о файлах при преобразовании старого файла проекта в более новый
+# Версия Visual Studio. Резервные копии файлов не нужны, потому что у нас есть git ;-)
+_ улучшение_порт_файлов/
+Резервноекопирование*/
+Списокобновлений*.XML
+Списокобновлений*.htm
+
+# Файлы SQL Server
+App_Data/*.mdf
+App_Data/*.ldf
+
+# =========================
+# Осколки Windows
+# =========================
+
+# Кэширование файлов образов Windows
+Thumbs.db
+ehthumbs.db
+
+# Файл конфигурации папки
+Desktop.ini
+
+# Корзина, используемая в общих файловых ресурсах
+$RECYCLE.BIN/
+
+# Файлы хранилища настольных компьютеров Mac
+.DS_Store
+
+_NCrunch*
