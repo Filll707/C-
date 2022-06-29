@@ -1,10 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+Console.WriteLine("Введите первое число для проверки");
+int numberA = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите второе число для проверки");
+int numberB = Convert.ToInt32(Console.ReadLine());
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
-
-</Project>
+if (numberA > numberB)
+{
+    Console.WriteLine($"Число {numberA} больше числа {numberB}");
+}
+else if (numberB > numberA)
+{
+    Console.WriteLine($"Число {numberB} больше числа {numberA}");
+}
